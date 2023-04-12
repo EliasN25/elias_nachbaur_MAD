@@ -45,7 +45,7 @@ class MainActivity : ComponentActivity() {
 }
 
 
-var bgColor = Color(red = 109, green = 39, blue = 121, alpha = 87)
+var bgColor = Color(red = 0, green = 0, blue = 0, alpha = 0)
 var favs: ArrayList<Movie> = ArrayList()
 
 
@@ -91,7 +91,7 @@ fun MovieRow(movie: Movie) {
                             Icons.Default.Favorite
                         },
                         contentDescription = "Favorite",
-                        tint = Color.Red
+                        tint = Color.Cyan
                     )
                 }
             }
